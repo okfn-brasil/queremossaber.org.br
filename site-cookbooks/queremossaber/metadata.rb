@@ -1,1 +1,2 @@
 depends "docker"
+depends "git"
