@@ -1,0 +1,12 @@
+{
+    "authorization": {
+        "sudo": {
+            "passwordless": true
+        }
+    },
+    "run_list": [
+        "chef-solo-search",
+        "sudo",
+        "users::sysadmins"
+    ]
+}
