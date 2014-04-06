@@ -5,12 +5,16 @@
         }
     },
     "tz": "America/Sao_Paulo",
+    "queremossaber": {
+      "user": "queremossaber"
+    },
     "run_list": [
         "timezone",
         "chef-solo-search",
         "sudo",
-        "users::sysadmins",
+        "users",
         "git",
-        "tmux"
+        "tmux",
+        "recipe[queremossaber]"
     ]
 }

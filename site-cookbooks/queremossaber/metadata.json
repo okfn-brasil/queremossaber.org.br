@@ -1,0 +1,30 @@
+{
+  "name": "queremossaber",
+  "description": "Provisions queremossaber.org.br",
+  "long_description": "",
+  "maintainer": "Vitor Baptista",
+  "maintainer_email": "vitor@vitorbaptista.com",
+  "license": "MIT",
+  "platforms": {
+  },
+  "dependencies": {
+    "docker": ">= 0.0.0"
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+  },
+  "version": "0.0.1"
+}
