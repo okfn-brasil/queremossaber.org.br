@@ -4,7 +4,9 @@
             "passwordless": true
         }
     },
+    "tz": "America/Sao_Paulo",
     "run_list": [
+        "timezone",
         "chef-solo-search",
         "sudo",
         "users::sysadmins"

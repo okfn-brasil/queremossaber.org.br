@@ -3,10 +3,12 @@ SITE
   specs:
     chef-solo-search (0.5.1)
     sudo (2.5.2)
+    timezone (0.0.1)
     users (1.7.0)
 
 DEPENDENCIES
   chef-solo-search (>= 0)
   sudo (>= 0)
+  timezone (>= 0)
   users (>= 0)
 
