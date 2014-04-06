@@ -1,14 +1,36 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
+    build-essential (2.0.0)
     chef-solo-search (0.5.1)
+    chef_handler (1.1.5)
+    dmg (2.2.0)
+    git (4.0.0)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 1.0.0)
+      windows (>= 0.0.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
+    runit (1.5.10)
+      build-essential (>= 0.0.0)
+      yum (~> 3.0)
+      yum-epel (>= 0.0.0)
     sudo (2.5.2)
     timezone (0.0.1)
+    tmux (1.4.0)
     users (1.7.0)
+    windows (1.30.2)
+      chef_handler (>= 0.0.0)
+    yum (3.1.6)
+    yum-epel (0.3.4)
+      yum (~> 3.0)
 
 DEPENDENCIES
   chef-solo-search (>= 0)
+  git (>= 0)
   sudo (>= 0)
   timezone (>= 0)
+  tmux (>= 0)
   users (>= 0)
 

@@ -9,6 +9,8 @@
         "timezone",
         "chef-solo-search",
         "sudo",
-        "users::sysadmins"
+        "users::sysadmins",
+        "git",
+        "tmux"
     ]
 }
