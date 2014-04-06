@@ -4,3 +4,5 @@ tmp
 vendor
 .bundle
 data_bag_key
+/cookbooks/
+/tmp/librarian/
