@@ -1,0 +1,6 @@
+*.swp
+cookbooks
+tmp
+vendor
+.bundle
+data_bag_key
